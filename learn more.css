@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+.login {
+    padding: 10px 26px;
+    background-color: white;
+    border: 3px solid crimson;
+}
+
+.top {
+    font-family: 'Fredoka', sans-serif;
+    color: crimson;
+    margin-top: 45px;
+    font-size: 30px;
+}
+
+body {
+    background: linear-gradient(to right, #fc466b, #3f5efb)
+}

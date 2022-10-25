@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500&family=Poppins:wght@200&display=swap');
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        
+        .button {
+            padding: 10px 26px;
+            border: 3px solid crimson;
+            color: crimson;
+            font-family: 'Fredoka', sans-serif;
+            font-weight: 800;
+            background-color: white;
+            align-items: center;
+        }
+        
+        .h3 {
+            font-family: 'Fredoka', sans-serif;
+            font-size: 30px;
+            margin-left: 100px;
+            margin-top: 90px;
+            color: white;
+            font-weight: lighter;
+            float: inline-start;
+            box-sizing: border-box;
+        }
+        
+        .p {
+            font-size: 18px;
+        }
+        
+        .btn {
+            padding: 10px 26px;
+            background-color: crimson;
+            border: 3px solid crimson;
+            margin-top: 30px;
+            font-family: 'Fredoka', sans-serif;
+            color: white;
+            font-weight: 500;
+            border-radius: 5px;
+        }
+        
+        .email {
+            padding: 13px 52px;
+            border-radius: 5px;
+            background-color: rgb(240, 238, 238);
+            border: solid rgb(240, 238, 238);
+        }
+        
+        .password {
+            padding: 13px 52px;
+            border-radius: 5px;
+            background-color: rgb(240, 238, 238);
+            border: solid rgb(240, 238, 238);
+        }
+        
+        .user {
+            padding: 13px 52px;
+            border-radius: 5px;
+            background-color: rgb(240, 238, 238);
+            border: solid rgb(240, 238, 238);
+        }
+        
+        .submit {
+            padding: 13px 108px;
+            background-color: crimson;
+            box-shadow: 0 0 5px crimson;
+            border: solid crimson;
+            border-radius: 5px;
+            font-family: 'Fredoka', sans-serif;
+            color: white;
+        }
+        
+        .container h3 {
+            text-align: center;
+            font-family: 'Fredoka', sans-serif;
+        }
+        
+        .baby {
+            margin-top: 100px;
+            width: 342px;
+            margin-right: 121px;
+            height: 186;
+            margin-left: -457px;
+            float: left;
+            border-radius: 10px;
+        }
+        
+        .p2 {
+            margin-top: 200px;
+            font-family: 'Fredoka', sans-serif;
+        }
+        
+        .p3 {
+            margin-top: 280px;
+            font-family: 'Fredoka', sans-serif;
+        }
+        
+        .container {
+            width: 368px;
+            background-color: black;
+            box-shadow: 0 0 15px #000;
+            width: 368px;
+            padding: 50px;
+            margin-top: -330px;
+            margin: auto;
+        }
+        
+        .select {
+            padding: 13px 40px;
+            border: solid rgb(240, 238, 238);
+            box-shadow: 0 0 10px #000;
+            background-color: rgb(240, 238, 238);
+            border-radius: 5px;
+            font-family: 'Fredoka', sans-serif;
+        }
+        
+        .date {
+            padding: 13px 77px;
+            border: solid rgb(240, 238, 238);
+            background-color: rgb(240, 238, 238);
+            border-radius: 5px;
+            font-family: 'Fredoka', sans-serif;
+        }
+        
+        label {
+            color: white;
+            font-family: 'Fredoka', sans-serif;
+        }
+        
+        h5 {
+            color: white;
+            font-family: 'Fredoka', sans-serif;
+            font-weight: bold;
+            font-size: 22px;
+        }
+        
+        .stem {
+            background-color: crimson;
+            box-shadow: 0 0 10px crimson;
+            padding: 70px;
+            border-radius: 168px;
+            position: relative;
+            margin-left: 69px;
+            width: 64px;
+        }
+        
+        .img {
+            width: 80px;
+            position: absolute;
+            height: 80px;
+            align-items: center;
+            top: 33px;
+            left: 39px;
+        }
+        
+        img:hover {
+            border: 1px solid transparent;
+        }
+        
+        img:active {
+            border: 1px solid transparent;
+        }
+        
+        .footer_content {
+            background-color: rgb(14, 12, 12);
+            box-shadow: 0 0 8px #000;
+            padding: 70px 0px;
+        }
+        
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .foot-colm {
+            width: 25%;
+            line-height: 20px;
+        }
+        
+        .foot-colm h4 {
+            color: crimson;
+            font-family: 'Fredoka', sans-serif;
+            position: relative;
+        }
+        
+        .foot-colm h4::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+            box-sizing: border-box;
+            height: 2px;
+            background-color: crimson;
+            width: 50px;
+        }
+        
+        .foot-colm a {
+            color: antiquewhite;
+            text-decoration: none;
+            column-gap: 5px;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        ul {
+            list-style: none;
+        }
+        
+        .nav2 {
+            margin-bottom: -200px;
+            float: left;
+            margin-left: -1099;
+        }
+        
+        .containe {
+            max-width: 1170px;
+            margin: auto;
+        }
+        
+        .logo {
+            font-family: 'Fredoka', sans-serif;
+        }
+        
+        .fab {
+            padding: 12px 12px;
+            background-color: crimson;
+            box-shadow: 0 0 4px #fff;
+            border-radius: 50px;
+        }
+        
+        .fab:hover {
+            border: 1px solid transparent;
+        }
+        
+        body {
+            background-color: rgb(240, 238, 238);
+        }
+        
+        .home {
+            width: 60px;
+            height: 60px;
+        }
+        
+        .side {
+            display: grid;
+            grid-auto-flow: row;
+            grid-auto-rows: 23%;
+            margin-left: 118px;
+            margin-top: 175px;
+            box-shadow: 0 0 10px #000;
+            position: absolute;
+            padding: 68px 19px;
+            /* width: 100px; */
+            background-color: crimson;
+            grid-row-gap: 11px;
+            border-radius: 127px;
+        }
+        
+        .pay {
+            padding: 13px 57px;
+            border: solid rgb(240, 238, 238);
+            box-shadow: 0 0 10px #000;
+            background-color: rgb(240, 238, 238);
+            border-radius: 5px;
+            font-family: 'Fredoka', sans-serif;
+        }
+        
+        .pay2 {
+            padding: 13px 50px;
+            border: solid rgb(240, 238, 238);
+            box-shadow: 0 0 10px #000;
+            background-color: rgb(240, 238, 238);
+            border-radius: 5px;
+            font-family: 'Fredoka', sans-serif;
+        }
+    </style>
+</head>
+
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="side">
+        <a href="service2.html"><img src="img/home.png" class="home"></a>
+        <img src="img/about us.png" class="home">
+        <img src="img/contact.png" class="home">
+        <a href="#"><img src="img/customer-service.png" class="home"></a>
+
+    </div>
+
+
+    <div class="container">
+        <div class="stem">
+            <img src="img/stethoscope.png" class="img">
+        </div>
+        <br>
+        <br>
+        <form action="book.php" method="post">
+            <select name="select" class="select" id="select">
+              <option value="doctor">Specialist</option>
+              <option value="DR.Winston Steinburger,MD">DR.Winston Steinburger,MD</option>
+              <option value="DR.John Blender,MD">DR.John Blender,MD</option>
+              <option value="DR.Hearlin Rrujveer,MD">DR.Hearlin Rrujveer,MD</option>
+              <option value="DR. Kayla Casmir,DO">DR. Kayla Casmir,DO</option>
+              <option value="Dr. Terry Wayne Fonville,MD">Dr. Terry Wayne Fonville,MD</option>
+              <option value="DR.Wayne Johnson,MD">DR.Wayne Johnson,MD</option>
+              
+         
+              
+              </select>
+
+            <br>
+            <br>
+            <input type="text " placeholder="Enter email or address " class="email " name="email">
+            <br>
+            <br>
+            <input type="date" placeholder="schedule your meet " class="date" name="date">
+            <br>
+            <br>
+            <input type="text " placeholder="Mobile number" class="password " name="mobile">
+            <br>
+            <br>
+            <input type="text " placeholder="Full name" class="user " name="username">
+            <br>
+            <br>
+            <h5>Choose Gender</h5>
+            <br>
+
+            <label for="male">Male</label> <input type="radio" name="radio" value="male">
+            <label for="male">Female</label> <input type="radio" name="radio" value="Female">
+            <br>
+            <br>
+            <input type="Submit" value="Book now" class="submit" name="submit">
+
+    </div>
+
+    </form>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <footer class="footer_content ">
+        <div class="containe">
+            <div class="row">
+                <div class="foot-colm">
+                    <h4>NAVIGATION</h4>
+                    <br>
+                    <ul>
+
+                        <li><a href="# ">home</a></li>
+                        <li> <a href="# ">about</a></li>
+                        <li> <a href="# ">contact us</a></li>
+                        <li><a href="# ">service</a></li>
+
+                    </ul>
+                </div>
+                <div class="foot-colm">
+                    <h4>COMPANY</h4>
+                    <br>
+                    <ul>
+                        <li><a href="# ">investments</a></li>
+                        <li><a href="# ">FAQ</a></li>
+                        <li><a href="# ">doctors</a></li>
+
+                        <li><a href="# ">clients</a></li>
+                    </ul>
+                </div>
+                <div class="foot-colm">
+                    <h4>GET HELP</h4>
+                    <br>
+                    <ul>
+                        <li><a href="# ">customer care</a></li>
+                        <li><a href="# ">FAQ</a></li>
+                        <li><a href="# ">our service</a></li>
+
+                        <li><a href="# ">settings</a>
+                    </ul>
+                </div>
+                <div class="foot-colm">
+                    <h4>BLOG</h4>
+                    <br>
+                    <ul>
+                        <a href="https://www.instagram.com/?hl=en"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/login"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://twitter.com/?lang=en"><i class="fab fa-twitter"></i></a>
+
+
+
+
+
+
+                    </ul>
+                </div>
+            </div>
+
+
+
+        </div>
+        </div>
+        </div>
+
+
+
+    </footer>
+
+</body>
+
+</html>
+</body>
+
+</html>

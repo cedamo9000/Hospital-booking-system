@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 12vh;
+    align-items: center;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+footer {
+    padding: 5px;
+    background-color: crimson;
+    color: antiquewhite;
+    position: bottom;
+}
+
+.doc {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: bold;
+}
+
+.img {
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    height: 12vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.doc a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+a:active,
+:hover {
+    background-color: crimson;
+    padding: 12px 10px;
+    border-radius: 20px;
+}
+
+.home {
+    padding: 12px 10px;
+    border-radius: 20px;
+    color: whitesmoke;
+    border-radius: 20px;
+    padding: 4px 20px;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: bold;
+    background-color: crimson;
+    border: 3px solid crimson;
+}
+
+.doc li {
+    list-style: none;
+}
+
+.hospital {
+    font-size: 22px;
+    color: crimson;
+    letter-spacing: 3px;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.login {
+    padding: 12px 10px;
+    border-radius: 20px;
+    color: whitesmoke;
+    border-radius: 20px;
+    padding: 4px 20px;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: bold;
+    background-color: crimson;
+    border: 3px solid crimson;
+}
+
+.adoc {
+    background: crimson;
+    background: -webkit-linear-gradient(to right, #fc466b, #3f5efb);
+    background: linear-gradient(to right, #fc466b, #3f5efb), url("img/.jpg");
+    width: 100%;
+    margin: 0%;
+    border: 0%;
+    background-blend-mode: screen;
+    padding: 80px;
+}
